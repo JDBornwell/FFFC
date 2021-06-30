@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <link href="styles.css" rel="stylesheet"/>
+    <title>Fit for Fun Fitness Club:Info</title>
+  </head>
+  <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html"
+        title="To return to the homepage click here">Home</a></li>
+        <li><a href="classes.html"
+        title="To return to the class schedule click here">Class Schedule</a></li>
+        <li><a href="info.html" title="To submit your info click here" >Class Registration</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="heading">
+  <h1>
+ Class Registration
+ </h1>
+</div>
+ <form method="get" action="thankyou.html">
+  <fieldset>
+   <legend> Contact Information </legend>
+    <label for="fname">
+     Name:
+     <input autofocus type="text" name= "fname" id=fname required placeholder="First Name"/>
+   </label>
+   <label for="lname">
+     Last Name:
+     <input type="text" name= "lname" id=lname required placeholder="Last Name" />
+   </label>
+   <label for="email">
+     Email:
+    <input type="text" name= "email" id=email required placeholder="Email" />
+   </label>
+   <label for="phone">
+    Phone:
+    <input type="text" name= "phone" id=phone required placeholder="Phone" />
+  </label>
+</fieldset>
+<!-- Contacting Options Drop Down -->
+<fieldset>
+  <legend> Best Way To Contact </legend>
+
+   <select id="contact" name="contact">
+     <option value="Email">Email</option>
+     <option value="Phone">Phone</option>
+     <option value="Owl">Owl</option>
+     <option value="Yelling Loudly">Yelling Loudly</option>
+   </select>
+</fieldset>
+
+<!-- Checklist Buttons -->
+<fieldset>
+  <legend> Please Choose Which Classes You Would Like To Take </legend>
+
+    <label for="checkbox1">
+       <input type="checkbox" id="checkbox1" name="Cross Training" checked>
+       Cross Training
+    </label>
+
+    <label for="checkbox2">
+       <input type="checkbox" id="checkbox2" name="Advanced Cross Training" checked>
+       Advanced Cross Training
+    </label>
+
+    <label for="checkbox3">
+       <input type="checkbox" id="checkbox3" name="Sprint" checked>
+       Sprint
+    </label>
+
+    <label for="checkbox4">
+       <input type="checkbox" id="checkbox4" name="Spin" checked>
+       Spin
+    </label>
+
+    <label for="checkbox5">
+       <input type="checkbox" id="checkbox5" name="Body Pump" checked>
+       Body pump
+    </label>
+
+    <label for="checkbox6">
+       <input type="checkbox" id="checkbox6" name="Body Combat" checked>
+      Body Combat
+    </label>
+
+    <label for="checkbox7">
+       <input type="checkbox" id="checkbox7" name="Step Interval" checked>
+       Step Interval
+    </label>
+
+    <label for="checkbox8">
+       <input type="checkbox" id="checkbox8" name="Zumba" checked>
+       Zumba
+    </label>
+
+    <label for="checkbox9">
+       <input type="checkbox" id="checkbox9" name="MixxedFit" checked>
+       Mixxed Fit
+      </label>
+  </fieldset>
+
+<!-- Radio Buttons -->
+<fieldset>
+  <legend> Perferred Class Times </legend>
+   <input type="radio" id="radioam" name="radio" value="am"
+        checked>
+    <label for="radioam">AM</label>
+
+    <input type="radio" id="radiopm" name="radio" value="pm"
+          checked>
+  <label for="radiopm">PM</label>
+</fieldset>
+<!-- Text Area -->
+<fieldset>
+<legend> Suggestions For New Classes </legend>
+  <label for="textarea">
+   <textarea id="textarea" name="textarea" rows="4" cols="50">
+   </textarea>
+  </label>
+</fieldset>
+
+
+
+
+<input type="submit" id="submit" value="submit"/>
+
+</form>
+  </body>
+</html>

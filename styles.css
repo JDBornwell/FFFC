@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/*
+
+
+   Fit For Fun Style Sheet
+   Author: Josh Welborn
+   Date:   06/28/2021
+
+   Filename:         styles.css
+
+*/
+/* Main Styles */
+body {
+ background-image: url("background.png");
+ background-color: tan;
+ color: rgb(66, 67, 59);
+ background-size:cover;
+}
+
+header{
+
+  }
+  nav  {
+    margin-left:5em;
+    margin-top: 1em;
+    font-size: 25px;
+    display: block;
+
+  }
+
+  li {
+    display: inline;
+    font-size: 25px;
+    margin-top: 1em;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+
+
+
+/* Index only Styles */
+h1 {
+  background-color:  rgba(218, 153, 99, 0.65);
+  text-align: center;
+  display: block;
+  width: 500px;
+  font-size: 32px;
+  border: .25em;
+  border-style: groove;
+  border-color: rgb(218, 153, 99);
+  color: rgb(66, 67, 59);
+
+  margin-left: 4.0em;
+
+  }
+.results{
+  background-color: rgba(218, 153, 99, 0.85);
+  width: 200px;
+  border: .25em;
+  border-style: groove;
+  border-color: rgb(218, 153, 99);
+  color: rgb(66, 67, 59);
+
+}
+
+.welcome {
+  margin-top: 4em;
+  margin-left: 16em;
+margin-bottom: 4em;
+  font-size: 18px;
+  width: 1050px;
+  text-align: center;
+
+  }
+.box {
+  border: .25em;
+  border-style: groove;
+  border-color: rgb(218, 153, 99);
+  width: 1050px;
+  margin-top: 11em;
+  margin-left:17em
+}
+
+/* Form Styles */
+form {
+  width: 1200px;
+  background-color:  rgba(218, 153, 99, 0.85);
+  font-size: 20px;
+  border: .25em;
+  border-style: groove;
+  border-color: rgb(218, 153, 99);
+  color: rgb(66, 67, 59);
+ font-weight: bold;
+ margin-left: 1em;
+}
+
+/* Table Styles */
+table.center {
+  background:rgba(218, 153, 99, 0.85);
+    font-size: 1em;
+  width: 60%;
+  text-align: center;
+  border: .5em;
+  border-style: groove;
+  border-color: rgb(218, 153, 99);
+  color: rgb(66, 67, 59);
+  margin-left: 1em;
+
+
+}
+table.center th, table.center td {
+  border: 3px groove rgba(218, 153, 99, 0.85);
+}
+/* Link Styles */
+a:link{
+  color:rgb(66, 67, 59);
+  text-decoration: none;
+  }
+
+  a:visited {
+    color:rgb(66, 67, 59);
+    text-decoration: none;
+  }
+
+
+  a:active {
+    background: rgb(66, 67, 59);
+    color: rgb(66, 67, 59);
+  }
